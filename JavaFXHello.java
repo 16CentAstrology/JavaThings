@@ -9,7 +9,7 @@ public class JavaFXHello extends Application {
 	}
 
 	@Override public void start(Stage stage) {
-		Label label = new Label("Hello World");
+		Label label = new Label("Hello from JavaFX...");
 		Scene scene = new Scene(label);
 		stage.setScene(scene);
 		stage.show();
